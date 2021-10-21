@@ -9,31 +9,20 @@
 import React from 'react';
 // import type {Node} from 'react';
 import {
-  SafeAreaView,
-  ScrollView,
   StatusBar,
   StyleSheet,
   Text,
-  useColorScheme,
   View,
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-
-
+import {Search} from './screens'
 const App = () => {
 
   return (
     <>
-      <StatusBar barStyle='dark-content' backgroundColor = '#00aaff'/>
-      <Text>Hello World</Text>
+      <StatusBar barStyle='dark-content' backgroundColor = "#00aaff"/>
+      <Search />
+
     </>
   );
 };
